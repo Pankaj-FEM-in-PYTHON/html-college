@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <form action="#">
+        
+        NAME :<input type="text" name="name" value="" placeholder="name"><br>
+        PASSWORD :<input type="password" name="password" placeholder="password" ><br>
+        G-MAIL : <input type="email" name="g-mail" placeholder="email"><br>
+        <legend>Choose your gender:</legend>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female"><br>
+        Mobile : <input type="text" maxlength="10" placeholder="mobile no." pattern="\d{10}" title="Please enter exactly 10 digits" /><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
